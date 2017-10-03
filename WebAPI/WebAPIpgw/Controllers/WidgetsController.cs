@@ -20,6 +20,7 @@ namespace WebAPIpgw.Controllers
 
             await Task.Delay(Util.GetDelay(), cancelToken);
             return Widget.GetWidgets();
+
         }   
     }
 }
